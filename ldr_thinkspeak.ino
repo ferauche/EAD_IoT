@@ -55,7 +55,7 @@ void loop() {
   
     Serial.print("Analog Value = ");
     Serial.println(analogValue);   // Leitura crua do sensor
-    Serial.println("Aguardando "+str(timerDelay)+"ms para nova leitura...");
+    Serial.println("Aguardando "+String(timerDelay)+"ms para nova leitura...");
     //delay(5000);
     lastTime = millis();
   }
