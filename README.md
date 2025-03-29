@@ -36,7 +36,7 @@ O código-fonte está representado no arquivo [ldr_thinkspeak.ino](https://githu
 - Conexão Wifi: SSID e Senha são configurados nas linhas 4 e 5
 - Configurações do ThingSpeak: ID do canal e chave de API são configurados nas linhas 8 e 9
 
-Basta compilar e fazer o upload do arquivo lrd_thinkspeak.ino para o ESP32, e não apresentando nenhum erro, deve-se abrir o "Serial Monitor" e verificar as mensagens de conexão Wifi, leitura de luminonisdade e envio dos dados ao ThinkgSpeak
+Basta compilar e fazer o upload do arquivo ldr_thinkspeak.ino para o ESP32, e não apresentando nenhum erro, deve-se abrir o "Serial Monitor" e verificar as mensagens de conexão Wifi, leitura de luminonisdade e envio dos dados ao ThinkgSpeak
 <br>![Serial Monitor](https://github.com/ferauche/EAD_IoT/blob/main/serial_monitor.png)
   
 
