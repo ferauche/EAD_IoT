@@ -10,7 +10,10 @@ Para a montagem do circuito será utilizada a lista de componentes abaixo
 - 1 microcontrolador Nodemcu ESP32-WROOM-32
 
 As conexões do circuito segue conforme imagem abaixo:
-![Texto Alternativo](https://github.com/ferauche/EAD_IoT/blob/main/circuito.png)
+- Resistor está conectado entre o GND e um terminal do LDR
+- Outro terminal do LDR está conectado ao pino 32
+- O pino 33 está conectado no terminal do LDR conectado ao resistor
+<br>![Circuito](https://github.com/ferauche/EAD_IoT/blob/main/circuito.png)
 
 # Plataforma ThingSpeak
 - Necessário logar, ou criar uma conta caso não tenha, no site ThingSpeak (https://thingspeak.mathworks.com/)
